@@ -9,14 +9,17 @@ describe('<Menu />', function(){
 
         expect(menu.props).toEqual(expect.objectContaining({
             m3: expect.anything(),
+            m3OnChange: expect.anything(),
             KHw: expect.anything(),
+            KHwOnChange: expect.anything(),
             Watts: expect.anything(),
+            WattsOnChange: expect.anything(),
         }));
     });
 
-    it('Deveria conter 6 elementos filhos', ()=>{
+    it('Deveria renderizar corretamente', ()=>{
         const menu = renderer.create(<Menu />).toJSON();
 
-        expect(menu.children.length).toBe(6);
+        expect(menu).toMatchSnapshot();
     })
 });

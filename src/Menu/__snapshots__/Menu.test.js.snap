@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Menu /> Deveria renderizar corretamente 1`] = `
+<View>
+  <Text>
+    Água
+  </Text>
+  <TextInput
+    allowFontScaling={true}
+    onChangeText={[Function]}
+    rejectResponderTermination={true}
+    underlineColorAndroid="transparent"
+  />
+  <Text>
+    Luz
+  </Text>
+  <TextInput
+    allowFontScaling={true}
+    onChangeText={[Function]}
+    rejectResponderTermination={true}
+    underlineColorAndroid="transparent"
+  />
+  <Text>
+    Chuveiro
+  </Text>
+  <TextInput
+    allowFontScaling={true}
+    onChangeText={[Function]}
+    rejectResponderTermination={true}
+    underlineColorAndroid="transparent"
+  />
+</View>
+`;
