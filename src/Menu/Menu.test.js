@@ -4,7 +4,7 @@ import renderer from "react-test-renderer";
 import Menu from './';
 
 describe('<Menu />', function(){
-    it('Deveria conter 3 props (m3, KHw, Watts)', ()=>{
+    it('Deveria conter 6 props (m3, m3OnChange, KHw, KHwOnChange, Watts, WattsOnChange)', ()=>{
         const menu = new Menu();
 
         expect(menu.props).toEqual(expect.objectContaining({
