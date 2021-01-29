@@ -5,12 +5,11 @@ import ButtonToggle from './';
 
 describe("<ButtonToggle />", function(){
 
-    it('Deveria ter 3 props (trigger1, trigger2, Picture)', ()=>{
+    it('Deveria ter 2 props (trigger, Picture)', ()=>{
         const Button = new ButtonToggle();
 
         expect(Button.props).toEqual(expect.objectContaining({
-            trigger1: expect.anything(),
-            trigger2: expect.anything(),
+            trigger: expect.anything(),
             picture: expect.anything(),
         }));
     });
